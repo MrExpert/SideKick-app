@@ -1,0 +1,8 @@
+.full {
+  --background: none;
+  background: url("/assets/congrats-confetti.svg") no-repeat fixed center;
+  background-size: cover;
+  height: 80vh !important;
+}
+
+/*# sourceMappingURL=dashboard-congrats.component.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["check-in.component.scss"],"sourcesContent":[".getStarted{\n    font-size: x-large;\n    font-weight: 400;\n    background-color: #5E6DF2 !important;\n    border-radius: 15px;\n    color: whitesmoke;\n    text-align: center;\n}"],"file":"check-in.component.css"}

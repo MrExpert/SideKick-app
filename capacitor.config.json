@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "sidekick001",
+  "appName": "Sidekick",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

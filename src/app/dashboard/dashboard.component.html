@@ -1,7 +1,7 @@
 <ion-content class="pad">
-  <h1 class="pad">Your Relationship</h1>
-  <ion-chip class="x">x</ion-chip>
-  <p class="bg"> Calls greater than 5 minutes will get <br>a check mark </p>
+  <h1 class="pad">Your Relationships</h1>
+  <ion-chip class="x" (click)="next()">X</ion-chip>
+  <p class="bg"> Calls greater than 5 minutes will<br> get a checkmark </p>
   <h2 class="center">Day 1</h2>
   <ion-list>
     <ion-item>
@@ -26,9 +26,9 @@
          </ion-icon>
          <ion-icon name="checkmark-circle-outline">
          </ion-icon>
-         <ion-icon name="checkmark-circle-outline">
+         <ion-icon name="checkmark-circle">
          </ion-icon>
-      <ion-label class="end">0/3 Calls</ion-label>
+      <ion-label class="end">0/2 Calls</ion-label>
     </ion-item>
     <ion-item>
       <ion-avatar slot="start">
@@ -41,33 +41,33 @@
          </ion-icon>
          <ion-icon name="circle">
          </ion-icon>
-      <ion-label class="end">0/3 Calls</ion-label>
+      <ion-label class="end">0/2 Calls</ion-label>
     </ion-item>
     <ion-item>
       <ion-avatar slot="start">
             <img src="../assets/avatar.png">
       </ion-avatar>
-      <ion-label>Ajit</ion-label>
+      <ion-label>Ajit Dipak</ion-label>
          <ion-icon name="checkmark-circle-outline">
          </ion-icon>
          <ion-icon name="circle">
          </ion-icon>
          <ion-icon name="circle">
          </ion-icon>
-      <ion-label class="end">0/3 Calls</ion-label>
+      <ion-label class="end">0/1 Call</ion-label>
     </ion-item>
     <ion-item>
       <ion-avatar slot="start">
             <img src="../assets/avatar.png">
       </ion-avatar>
-      <ion-label>Sefunmi</ion-label>
+      <ion-label>Sefunmi Osinaike</ion-label>
          <ion-icon name="checkmark-circle-outline">
          </ion-icon>
          <ion-icon name="circle">
          </ion-icon>
          <ion-icon name="circle">
          </ion-icon>
-      <ion-label class="end">0/3 Calls</ion-label>
+      <ion-label class="end">0/1 Call</ion-label>
     </ion-item>
     
   </ion-list>

@@ -3,16 +3,14 @@ ion-content{
 }
 ion-grid{
     height: 100%;
-    padding: 50px;
     background-color: white;
+    padding: 3%;
 }
 .borderGray{
     border: 2px solid rgb(15, 15, 15);
 }
 .logo{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 2em;
-    color: #FAC847
+    width: 80%;
 
 }
 .center{
@@ -34,5 +32,7 @@ font-weight: 500;
 .getStarted{
     font-size: x-large;
     font-weight: 400;
-    background-color: #FAC847;
+    background-color: #5E6DF2 !important;
+    border-radius: 15px;
+    color: whitesmoke;
 }

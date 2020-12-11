@@ -1,40 +1,46 @@
-
+<ion-content>
   <ion-grid>
-    <ion-row>
-      <ion-col size="8">Are these 5 relationships you want to focus on?</ion-col>
-      <ion-col size="4">
-        <ion-list >
-          <ion-row>
+      <ion-col size="6" class="left" >Are these 5 relationships you want to focus on?</ion-col>
+      <ion-col size="6" class="right">
+        <ion-list class="center">
+          <ion-row >
             <ion-avatar>
-                  <img src="https://smsi.ie/wp-content/uploads/2020/06/profile-2.png">
+                  <img src="../assets/hannah.png">
             </ion-avatar>
+            <ion-label>Hannah Lee</ion-label>
           </ion-row>
-            <!-- <ion-label>Hannah</ion-label> -->
             <ion-row>
               <ion-avatar>
-                    <img src="https://smsi.ie/wp-content/uploads/2020/06/profile-2.png">
-              </ion-avatar>
+                    <img src="../assets/sam.png">
+                </ion-avatar>
+                <ion-label>Sam Umirdinov</ion-label>
             </ion-row>
-              <!-- <ion-label>Alex</ion-label> -->
               <ion-row>
                 <ion-avatar>
-                      <img src="https://smsi.ie/wp-content/uploads/2020/06/profile-2.png">
+                      <img src="../assets/alex.png">
                 </ion-avatar>
+                <ion-label>Alex Le</ion-label>
               </ion-row>
-                <!-- <ion-label>Sam</ion-label> -->
                 <ion-row>
                   <ion-avatar>
-                        <img src="https://smsi.ie/wp-content/uploads/2020/06/profile-2.png">
+                        <img src="../assets/avatar.png">
                   </ion-avatar>
+                  <ion-label>Ajit Dipak</ion-label>
                 </ion-row>
-                  <!-- <ion-label>Ajit</ion-label> -->
                   <ion-row>
                     <ion-avatar>
-                          <img src="https://smsi.ie/wp-content/uploads/2020/06/profile-2.png">
+                          <img src="../assets/avatar.png">
                     </ion-avatar>
+                    <ion-label>Sefunmi Osinaike</ion-label>
                   </ion-row>
-                    <!-- <ion-label>Sefunmi</ion-label> -->
         </ion-list>        
-      </ion-col>
-    </ion-row>
+    </ion-col>
   </ion-grid>
+<ion-grid>
+  <ion-row class="next">
+    <ion-col size="2"></ion-col>
+    <ion-col class="getStarted" (click)="next()">Set Goals</ion-col>
+    <ion-col size="2"></ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

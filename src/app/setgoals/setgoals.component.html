@@ -1,5 +1,5 @@
 <ion-header class="pad">
-  <h1>Set Realtionship Goals</h1>
+  <h1>Set Relationship Goals</h1>
     <p> During the week, how many calls do you want to schedule with each contact? </p>
     </ion-header>
 <ion-content class="pad">
@@ -9,18 +9,18 @@
             <img src="../assets/hannah.png">
       </ion-avatar>
       <ion-label>Hannah Lee</ion-label>
-      <ion-chip>
+        <ion-chip>
+          <ion-icon name="circle"></ion-icon>
+          <ion-label>1x</ion-label>
+        </ion-chip>
+        <ion-chip>
         <ion-icon name="circle"></ion-icon>
-        <ion-label>1x</ion-label>
-      </ion-chip>
-      <ion-chip>
-      <ion-icon name="circle"></ion-icon>
-          <ion-label>2x</ion-label>
-      </ion-chip>
-      <ion-chip>
-      <ion-icon name="checkmark-circle"></ion-icon>
-          <ion-label>3x</ion-label>
-      </ion-chip>
+            <ion-label>2x</ion-label>
+        </ion-chip>
+        <ion-chip>
+        <ion-icon name="checkmark-circle"></ion-icon>
+            <ion-label>3x</ion-label>
+        </ion-chip>
     </ion-item>
     <ion-item>
       <ion-avatar slot="start">
@@ -62,7 +62,7 @@
       <ion-avatar slot="start">
             <img src="../assets/avatar.png">
       </ion-avatar>
-      <ion-label>Ajit</ion-label>
+      <ion-label>Ajit Dipak</ion-label>
       <ion-chip>
         <ion-icon name="checkmark-circle"></ion-icon>
         <ion-label>1x</ion-label>
@@ -80,7 +80,7 @@
       <ion-avatar slot="start">
             <img src="../assets/avatar.png">
       </ion-avatar>
-      <ion-label>Sefunmi</ion-label>
+      <ion-label>Sefunmi Osinaike</ion-label>
       <ion-chip>
         <ion-icon name="checkmark-circle"></ion-icon>
         <ion-label>1x</ion-label>
@@ -95,5 +95,11 @@
       </ion-chip>
     </ion-item>
   </ion-list>
- 
+  <ion-grid>
+    <ion-row>
+      <ion-col size="2"></ion-col>
+      <ion-col class="center getStarted" (click)="next()"> Get Started </ion-col>
+      <ion-col size="2"></ion-col>
+    </ion-row>
+    </ion-grid>
 </ion-content>

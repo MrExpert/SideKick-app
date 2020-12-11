@@ -1,0 +1,1 @@
+{"version":3,"sources":["imports-check-in.component.scss"],"names":[],"mappings":"AAAA,MACE,aAAc,KACd,WAAY,mCAAkD,OAAhB,UAAU","file":"imports-check-in.component.min.css","sourcesContent":[".full {\n    --background: none;\n    background: url('/assets/contacts-check-in.svg') no-repeat fixed center;\n    \n  }"]}

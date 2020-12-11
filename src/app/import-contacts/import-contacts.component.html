@@ -1,32 +1,45 @@
+<ion-content>
 <ion-list>
   <ion-radio-group value="biff">
     <ion-list-header class="pad">
-      <h1>Choose 5 contacts that you want to maintainyour relationships for</h1>
+      <h1>Choose 5 contacts that you want to maintain your relationships for</h1>
     </ion-list-header>
 
     <ion-item>
-      <ion-label>Hannah</ion-label>
-      <ion-radio slot="end" value="biff" color="warning"></ion-radio>
+      <ion-label>Hannah Lee</ion-label>
+      <ion-checkbox slot="end" [value]="checked" (ionChange)="Clicked()" color="warning"></ion-checkbox>
     </ion-item>
 
     <ion-item>
-      <ion-label>Alex</ion-label>
-      <ion-radio slot="end" value="biff" color="warning"></ion-radio>
+      <ion-label>Alex Le</ion-label>
+      <ion-checkbox slot="end" [value]="checked" (ionChange)="Clicked()" color="warning"></ion-checkbox>
     </ion-item>
 
     <ion-item>
-      <ion-label>Sam</ion-label>
-      <ion-radio slot="end" value="biff" color="warning"></ion-radio>
+      <ion-label>Sam Umirdinov</ion-label>
+      <ion-checkbox [value]="checked" (ionChange)="Clicked()" color="warning"></ion-checkbox>
     </ion-item>
     <ion-item>
-      <ion-label>Ajit</ion-label>
-      <ion-radio slot="end" value="biff" color="warning"></ion-radio>
+      <ion-label>Ajit Dipak</ion-label>
+      <ion-checkbox [value]="checked" (ionChange)="Clicked()" color="warning"></ion-checkbox>
     </ion-item>
 
     <ion-item>
-      <ion-label>Sefunmi</ion-label>
-      <ion-radio slot="end" value="biff" color="warning"></ion-radio>
+      <ion-label>Sefunmi Osinaike</ion-label>
+      <ion-checkbox [value]="checked" (ionChange)="Clicked()" color="warning"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>Helen Huang</ion-label>
+      <ion-checkbox [value]="checked" (ionChange)="Clicked()" color="warning"></ion-checkbox>
     </ion-item>
 
   </ion-radio-group>
 </ion-list>
+<ion-grid>
+<ion-row>
+  <ion-col size="2"></ion-col>
+  <ion-col class="getStarted" (click)="next()"> Import </ion-col>
+  <ion-col size="2"></ion-col>
+</ion-row>
+</ion-grid>
+</ion-content>

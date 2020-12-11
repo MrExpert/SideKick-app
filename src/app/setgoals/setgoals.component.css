@@ -1,0 +1,23 @@
+.pad {
+  padding: 5%;
+}
+
+ion-avatar {
+  height: 75px;
+  width: 75px;
+}
+
+ion-icon[name=checkmark-circle] {
+  color: #5E6DF2;
+}
+
+.getStarted {
+  font-size: x-large;
+  font-weight: 400;
+  background-color: #5E6DF2 !important;
+  border-radius: 15px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+/*# sourceMappingURL=setgoals.component.css.map */

@@ -1,14 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
-  selector: 'app-dashboard-post-congrats',
-  templateUrl: './dashboard-post-congrats.component.html',
-  styleUrls: ['./dashboard-post-congrats.component.scss'],
+  selector: "app-dashboard-post-congrats",
+  templateUrl: "./dashboard-post-congrats.component.html",
+  styleUrls: ["./dashboard-post-congrats.component.scss"],
 })
 export class DashboardPostCongratsComponent implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor() { }
+  next() {
+    this.router.navigate(["check-in"]);
+    // alert("this is clicked");
+  }
 
   ngOnInit() {}
-
 }
