@@ -14,11 +14,12 @@ import { DashboardPostCongratsComponent } from "../dashboard-post-congrats/dashb
 import { ImportsCheckInComponent } from "../imports-check-in/imports-check-in.component";
 import { SetgoalsComponent } from "../setgoals/setgoals.component";
 import { TopfiveComponent } from "../topfive/topfive.component";
+import { OnboardPermissionComponent } from "../onboard-permission/onboard-permission.component"
 
 const routes: Routes = [
   {
     path: "",
-    component: Onboarding1Component,
+    component: TabsPage,
   },
   {
     path: "avatar-list",
@@ -55,6 +56,9 @@ const routes: Routes = [
   {
     path: "imports-check-in",
     component: ImportsCheckInComponent,
+  },{
+    path: "onboard-permission", 
+    component: OnboardPermissionComponent
   },
   {
     path: "onboarding1",

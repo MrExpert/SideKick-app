@@ -6,8 +6,12 @@ import { Router } from "@angular/router";
   styleUrls: ["tabs.page.scss"],
 })
 export class TabsPage {
-  constructor(private router: Router) {}
-
+  constructor(private router: Router) {
+    setTimeout(() => {
+      this.go();
+    }, 3000);
+  }
+  
   go() {
     this.router.navigate(["onboarding1"]);
   }
