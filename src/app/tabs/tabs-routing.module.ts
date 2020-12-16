@@ -15,7 +15,7 @@ import { ImportsCheckInComponent } from "../imports-check-in/imports-check-in.co
 import { SetgoalsComponent } from "../setgoals/setgoals.component";
 import { TopfiveComponent } from "../topfive/topfive.component";
 import { OnboardPermissionComponent } from "../onboard-permission/onboard-permission.component"
-
+import { DashboardDay7Component } from "../dashboard-day7/dashboard-day7.component";
 const routes: Routes = [
   {
     path: "",
@@ -75,7 +75,10 @@ const routes: Routes = [
   {
     path: "top-five",
     component: TopfiveComponent,
-  },
+  },{
+    path: "dashboard-day7",
+    component: DashboardDay7Component
+  }
 ];
 
 @NgModule({

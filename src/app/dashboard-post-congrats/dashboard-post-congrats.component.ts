@@ -10,7 +10,7 @@ export class DashboardPostCongratsComponent implements OnInit {
   constructor(private router: Router) {}
 
   next() {
-    this.router.navigate(["check-in"]);
+    this.router.navigate(["dashboard-day7"]);
     // alert("this is clicked");
   }
 

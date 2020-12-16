@@ -12,7 +12,7 @@ export class Onboarding1Component implements OnInit {
   ngOnInit() {}
 
   continue() {
-    this.router.navigate(["importcontacts"]);
+    this.router.navigate(["onboard-permission"]);
     // alert("this is clicked");
   }
 }

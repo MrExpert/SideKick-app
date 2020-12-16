@@ -1,7 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Platform } from "@ionic/angular";
 import { CallLog, CallLogObject } from "@ionic-native/call-log/ngx";
-import { Router } from "@angular/router";
 
 @Component({
   selector: "app-onboarding2",
@@ -11,11 +10,7 @@ import { Router } from "@angular/router";
 export class Onboarding2Component implements OnInit {
   filters: CallLogObject[];
 
-  constructor(
-    private callLog: CallLog,
-    private platform: Platform,
-    private router: Router
-  ) {}
+  constructor(private callLog: CallLog, private platform: Platform) {}
 
   ngOnInit() {}
 
@@ -26,7 +21,5 @@ export class Onboarding2Component implements OnInit {
         // alert(" hasReadPermission " + JSON.stringify(results));
       })
       .catch((e) => alert(" requestReadPermission " + JSON.stringify(e)));
-
-    this.router.navigate(["importcontacts"]);
   }
 }

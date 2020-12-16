@@ -1,13 +1,16 @@
-<p>
-
-</p>
 <ion-header class="pad">
-  <h1>Check-In</h1>
-    <p>Do these goals still look good for next week?</p>
+  <ion-row>
+    <ion-col size="11">
+      <h1>Check-In</h1>
+      <p>Do these goals still look good <br>for next week?</p>
+    </ion-col>
+    <ion-col size="1" (click)="next()"><img src="../assets/settings.svg" class="gear">
+</ion-col>
+  </ion-row>
     </ion-header>
 <ion-content class="pad">
   <ion-list>
-    <ion-item>
+  <ion-item>
       <ion-avatar slot="start">
             <img src="../assets/hannah.png">
       </ion-avatar>
@@ -25,6 +28,7 @@
           <ion-label>3x</ion-label>
       </ion-chip>
     </ion-item>
+   
     <ion-item>
       <ion-avatar slot="start">
             <img src="../assets/sam.png">
@@ -65,7 +69,7 @@
       <ion-avatar slot="start">
             <img src="../assets/avatar.png">
       </ion-avatar>
-      <ion-label>Ajit</ion-label>
+      <ion-label>Ajit Dipak</ion-label>
       <ion-chip>
         <ion-icon name="checkmark-circle"></ion-icon>
         <ion-label>1x</ion-label>
@@ -83,7 +87,7 @@
       <ion-avatar slot="start">
             <img src="../assets/avatar.png">
       </ion-avatar>
-      <ion-label>Sefunmi</ion-label>
+      <ion-label>Sefunmi Osinaike</ion-label>
       <ion-chip>
         <ion-icon name="checkmark-circle"></ion-icon>
         <ion-label>1x</ion-label>
